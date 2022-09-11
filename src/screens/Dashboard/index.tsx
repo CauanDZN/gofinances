@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import { HighlightCard } from "../../components/HighlightCard";
 
 import { 
     Container,
@@ -11,7 +10,8 @@ import {
     User,
     UserGreeting,
     UserName,
-    Icon
+    Icon,
+    HighlightCards
 } from "./styles";
 
 export function Dashboard(){
@@ -31,6 +31,16 @@ export function Dashboard(){
                 </UserWrapper>
             </Header>
 
+            <HighlightCards
+                horizontal={true}
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={{ paddingHorizontal: 24 }}
+            >
+                <HighlightCard />
+                <HighlightCard />
+                <HighlightCard />
+            </HighlightCards>
+            
         </Container>
     )
 }
