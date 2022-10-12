@@ -16,14 +16,15 @@ interface Category {
     icon: string;
 }
 
-interface Props {
-    data: {
-        title: string;
-        amount: string;
-        category: Category;
-        date: string;
-    }
+interface Data {
+    title: string;
+    amount: string;
+    category: Category;
+    date: string;
+}
 
+interface Props {
+    data: Data;
 }
 
 export function TransactionCard({
