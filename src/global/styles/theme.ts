@@ -4,7 +4,7 @@ export default {
     secondary: '#FF872C',
     secondary_light: '#ff872c4d',
     success: '#12A454',
-    success_light: '#43ff64d9',
+    success_light: '#43ff6480',
     attention: '#E83F5B',
     attention_light: '#e83f5b80',
     shape: '#fff',
