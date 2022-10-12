@@ -22,6 +22,7 @@ import {
 export function Dashboard() {
     const data = [
         {
+            type: 'positive',
             title: "Desenvolvimento de site",
             amount: "R$30.000.00",
             category: {
@@ -31,6 +32,17 @@ export function Dashboard() {
             date: "03/10/2022",
         },
         {
+            type: 'negative',
+            title: "Alimetação",
+            amount: "R$10.00",
+            category: {
+                name: "Vendas",
+                icon: "coffee"
+            },
+            date: "03/10/2022",
+        },
+        {
+            type: 'positive',
             title: "Desenvolvimento de site",
             amount: "R$30.000.00",
             category: {
@@ -40,15 +52,7 @@ export function Dashboard() {
             date: "03/10/2022",
         },
         {
-            title: "Desenvolvimento de site",
-            amount: "R$30.000.00",
-            category: {
-                name: "Vendas",
-                icon: "dollar-sign"
-            },
-            date: "03/10/2022",
-        },
-        {
+            type: 'negative',
             title: "Desenvolvimento de site",
             amount: "R$30.000.00",
             category: {
