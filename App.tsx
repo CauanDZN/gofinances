@@ -9,6 +9,7 @@ import {
   Poppins_700Bold
 } from '@expo-google-fonts/poppins'
 
+import { CategorySelect } from './src/screens/CategorySelect';
 import { Dashboard } from './src/screens/Dashboard';
 import { Register } from './src/screens/Register';
 import { StatusBar } from 'expo-status-bar';
@@ -26,7 +27,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Register />
+      <CategorySelect />
       <StatusBar translucent />
     </ThemeProvider>
   )
