@@ -52,7 +52,7 @@ export function Register() {
         setCategoryModalOpen(false);
     }
 
-    function handleRegister(form: FormData) {
+    function handleRegister(form: Partial<FormData>) {
         const data = {
             name: form.name,
             amount: form.amount,
