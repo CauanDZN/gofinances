@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 
-import { FlatList, FlatListProps } from "react-native";
+import { FlatList, FlatListProps, TouchableOpacity } from "react-native";
 
 import { Feather } from "@expo/vector-icons"
 
@@ -72,6 +72,10 @@ export const UserName = styled.Text`
     font-family: ${({ theme }) => theme.fonts.bold};
 `;
 
+export const LogoutButton = styled(TouchableOpacity)`
+
+`;
+
 export const Icon = styled(Feather)`
     color: ${({ theme }) => theme.colors.secondary};
 
@@ -108,3 +112,4 @@ export const TransactionList = styled(
 ).attrs({
     showsVerticalScrollIndicator: false,
 })``;
+

@@ -3,7 +3,7 @@ import { TouchableOpacityProps } from "react-native";
 import { Container, Title } from "./styles";
 
 interface Props extends TouchableOpacityProps {
-    title: string
+    title: string;
 }
 
 export function Button({ title, ...rest }: Props) {
